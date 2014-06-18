@@ -2,16 +2,15 @@
 //  Track.swift
 //  DumbSlider
 //
-//  Created by Jonathan Rothwell on 04/06/2014.
-//  Copyright (c) 2014 Jonathan Rothwell. All rights reserved.
+//  Copyright © 2014 Jonathan Rothwell. See COPYING.md for licence
 //
 
 import Cocoa
 
 class Track: NSObject {
-    var volume : Float! = 5.0
+    var volume: Float = 5.0
     
-    func mute() {
-        self.volume = 0.0
+	func mute() {
+        volume = 0.0
     }
 }

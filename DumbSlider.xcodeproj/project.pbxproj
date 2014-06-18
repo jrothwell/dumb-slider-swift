@@ -13,10 +13,47 @@
 		273E4945193FC3E100B0363F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 273E4943193FC3E100B0363F /* MainMenu.xib */; };
 		273E495B193FC5A000B0363F /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E495A193FC5A000B0363F /* Track.swift */; };
 		273E495D193FD9A400B0363F /* TrackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E495C193FD9A400B0363F /* TrackTest.swift */; };
+		273E495F19408CC000B0363F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 273E495E19408CC000B0363F /* Info.plist */; };
+		27CDBB381951FD2B003DD9D2 /* COPYING.md in Sources */ = {isa = PBXBuildFile; fileRef = 27CDBB371951FD2B003DD9D2 /* COPYING.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		273D9EDC1940BC8A00577987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273E4930193FC3E100B0363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273E4937193FC3E100B0363F;
+			remoteInfo = DumbSlider;
+		};
+		273D9EDE1940BC8E00577987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273E4930193FC3E100B0363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273E4937193FC3E100B0363F;
+			remoteInfo = DumbSlider;
+		};
+		273D9EE1194127BD00577987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273E4930193FC3E100B0363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273E4937193FC3E100B0363F;
+			remoteInfo = DumbSlider;
+		};
 		273E494B193FC3E100B0363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273E4930193FC3E100B0363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273E4937193FC3E100B0363F;
+			remoteInfo = DumbSlider;
+		};
+		273E496019408E2700B0363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273E4930193FC3E100B0363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273E4937193FC3E100B0363F;
+			remoteInfo = DumbSlider;
+		};
+		273E496219408E2700B0363F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 273E4930193FC3E100B0363F /* Project object */;
 			proxyType = 1;
@@ -26,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273D9EE01940BC9300577987 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		273E4938193FC3E100B0363F /* DumbSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273E493C193FC3E100B0363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273E493D193FC3E100B0363F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -35,6 +73,8 @@
 		273E494A193FC3E100B0363F /* DumbSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273E495A193FC5A000B0363F /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Track.swift; path = ../Track.swift; sourceTree = "<group>"; };
 		273E495C193FD9A400B0363F /* TrackTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTest.swift; sourceTree = "<group>"; };
+		273E495E19408CC000B0363F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CDBB371951FD2B003DD9D2 /* COPYING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = COPYING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,8 @@
 		273E492F193FC3E100B0363F = {
 			isa = PBXGroup;
 			children = (
+				27CDBB371951FD2B003DD9D2 /* COPYING.md */,
+				273D9EE01940BC9300577987 /* README.md */,
 				273E493A193FC3E100B0363F /* DumbSlider */,
 				273E494D193FC3E100B0363F /* DumbSliderTests */,
 				273E4939193FC3E100B0363F /* Products */,
@@ -97,6 +139,7 @@
 		273E494D193FC3E100B0363F /* DumbSliderTests */ = {
 			isa = PBXGroup;
 			children = (
+				273E495E19408CC000B0363F /* Info.plist */,
 				273E495C193FD9A400B0363F /* TrackTest.swift */,
 			);
 			path = DumbSliderTests;
@@ -134,6 +177,11 @@
 			);
 			dependencies = (
 				273E494C193FC3E100B0363F /* PBXTargetDependency */,
+				273E496119408E2700B0363F /* PBXTargetDependency */,
+				273E496319408E2700B0363F /* PBXTargetDependency */,
+				273D9EDD1940BC8A00577987 /* PBXTargetDependency */,
+				273D9EDF1940BC8E00577987 /* PBXTargetDependency */,
+				273D9EE2194127BD00577987 /* PBXTargetDependency */,
 			);
 			name = DumbSliderTests;
 			productName = DumbSliderTests;
@@ -191,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273E495F19408CC000B0363F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +252,7 @@
 			files = (
 				273E4940193FC3E100B0363F /* AppDelegate.swift in Sources */,
 				273E493E193FC3E100B0363F /* main.swift in Sources */,
+				27CDBB381951FD2B003DD9D2 /* COPYING.md in Sources */,
 				273E495B193FC5A000B0363F /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,10 +268,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		273D9EDD1940BC8A00577987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273E4937193FC3E100B0363F /* DumbSlider */;
+			targetProxy = 273D9EDC1940BC8A00577987 /* PBXContainerItemProxy */;
+		};
+		273D9EDF1940BC8E00577987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273E4937193FC3E100B0363F /* DumbSlider */;
+			targetProxy = 273D9EDE1940BC8E00577987 /* PBXContainerItemProxy */;
+		};
+		273D9EE2194127BD00577987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273E4937193FC3E100B0363F /* DumbSlider */;
+			targetProxy = 273D9EE1194127BD00577987 /* PBXContainerItemProxy */;
+		};
 		273E494C193FC3E100B0363F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 273E4937193FC3E100B0363F /* DumbSlider */;
 			targetProxy = 273E494B193FC3E100B0363F /* PBXContainerItemProxy */;
+		};
+		273E496119408E2700B0363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273E4937193FC3E100B0363F /* DumbSlider */;
+			targetProxy = 273E496019408E2700B0363F /* PBXContainerItemProxy */;
+		};
+		273E496319408E2700B0363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273E4937193FC3E100B0363F /* DumbSlider */;
+			targetProxy = 273E496219408E2700B0363F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

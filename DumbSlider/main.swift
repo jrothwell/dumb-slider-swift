@@ -2,8 +2,7 @@
 //  main.swift
 //  DumbSlider
 //
-//  Created by Jonathan Rothwell on 04/06/2014.
-//  Copyright (c) 2014 Jonathan Rothwell. All rights reserved.
+//  Copyright © 2014 Jonathan Rothwell. See COPYING.md for licence
 //
 
 import Cocoa
