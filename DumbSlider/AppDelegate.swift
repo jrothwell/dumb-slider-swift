@@ -9,10 +9,10 @@ import Cocoa
 
 class AppDelegate: NSObject, NSApplicationDelegate {
                             
-	@IBOutlet var window: NSWindow
+	@IBOutlet var window: NSWindow?
 
-    @IBOutlet var textField: NSTextField
-    @IBOutlet var slider: NSSlider
+    @IBOutlet var textField: NSTextField?
+    @IBOutlet var slider: NSSlider?
 	
 	let track = Track()
 	
@@ -25,8 +25,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func updateUserInterface() {
-        textField.stringValue = String(track.volume)
-        slider.floatValue = track.volume
+		if let theTextField = textField {
+			theTextField.stringValue = NSString(format: "%2f", track.volume)
+		}
+		if let theSlider = slider {
+			theSlider.floatValue = track.volume
+		}
 	}
 
     @IBAction func mute(sender : AnyObject) {
